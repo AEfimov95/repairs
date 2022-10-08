@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@media screen and (max-width: 768px){
+    body {
+        background: #131313;
+        overflow-x:hidden
+    }
+    .button {
+        width: 100%;
+    }
+    .nav {
+        display: none;
+    }
+    .button-menu {
+        display: none;
+    }
+    .menu {
+        width: 90%;
+        justify-content: space-between;
+    }
+    .menu-phone{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    .promo-background {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 476px;
+        width: 100%;
+        background-size: auto;
+    }
+
+    .promo {
+        margin:0 auto;
+        max-width: 1440px;
+        width: 90%;
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+    }
+    .promo-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    .button-promo {
+        margin:0 0 25px;
+    }
+    .promo-title{
+        font-size: 1.5em;
+        line-height: 132.83%;
+    }
+    .promo-text {
+        font-size: 14px;
+        line-height: 135.84%;
+    }
+    .portfolio{
+        width: 90%;
+        padding: 36px 0;
+    }
+    .portfolio-cities {
+        display: none;
+    }
+    .portfolio-nav-btn {
+        display: none;
+    }
+    .portfolio-big{
+        display: none;
+    }
+    .carousel-small{
+        position: relative;
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .portfolio-left{
+        position: absolute;
+        left:13px;
+    }
+    .portfolio-right{
+        position: absolute;
+        right:13px;
+    }
+    .portfolio-desc h1{
+        font-size: 22px;
+        line-height: 138.6%;
+        text-align: center;
+    }
+    .portfolio-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .portfolio-desc p {
+        margin: 22px auto 72px;
+        font-size: 11px;
+        line-height: 158.48%;
+        text-align: center;
+    }
+    .portfolio-spec{
+        margin-top: 36px;
+    }
+    .portfolio-spec  h1 {
+        font-size: 14px;
+        line-height: 138.6%;
+        text-transform: uppercase;
+    }
+    .portfolio-spec p {
+        font-size: 11px;
+        line-height: 135.84%;
+    }
+    .online-control {
+        width: 90%;
+    }
+    .online-control p{
+        margin-top: 21px;
+        font-size: 11px;
+        line-height: 169.8%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .online-control-player {
+        height: 207px;
+        background-size: 100% 100%;
+        margin: 28px 0;
+        width: 100%;
+    }
+    .play {
+        width: 63px;
+        height: 63px;
+    }
+    .online-control-form {
+        flex-direction: column;
+        width: 100%;
+    }
+    .online-control-form label:first-child{
+        padding: 61px 0;
+    }
+    .desktop-button {
+        display: none;
+    }
+    .mobile-button {
+        display: block;
+        position: relative;
+        top:25px
+    }
+    .online-control-agreement{
+        color: #FFFFFF;
+        align-items: start;
+        margin: 28px 0;
+    }
+    .repairs-bg {
+        background: #FFFFFF;
+        width: 100%;
+    }
+    .repairs {
+        width: 90%;
+        padding-bottom: 150px;
+    }
+    .repairs-types {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+        padding: 30px;
+    }
+    .repairs-img {
+        width: 340px;
+        height: 365px;
+    }
+    .repairs-types-list{
+        margin:0;
+        bottom: 150px;
+    }
+    .repairs-types-list>h2{
+        text-align: start;
+        font-size: 18px;
+        line-height: 25px;
+        color: #363636;
+        text-transform: none;
+    }
+    .repairs-types-list ul{
+        padding-left: 14px;
+    }
+    .repairs-types-list ul>li {
+        line-height: 169.8%;
+    }
+    .input {
+        color: #FFFFFF;
+        border-color: rgba(54, 54, 54, 1);
+    }
+    .input::placeholder {
+        color: #FFFFFF;
+    }
+    .request-bg{
+        display: none;
+    }
+    .examples-bg {
+        background: #131313;
+        margin: 0;
+    }
+    .examples-list{
+        position: relative;
+        padding: 0;
+        bottom: 225px;
+    }
+    .examples-list ul {
+        display: none;
+    }
+    .examples-list h1 {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .examples-pic {
+        display: none;
+    }
+    .examples {
+        width: 90%;
+        height: auto;
+    }
+    .clients-bg {
+        display: none;
+    }
+    .address-bg {
+        background: #131313;
+        height: auto;
+    }
+    .address {
+        height: auto;
+    }
+    .question-form{
+        width: 90%;
+
+    }
+    .name-phone {
+        flex-direction: column;
+        height: 30%;
+        width: 90%;
+    }
+    .name-phone label{
+        width: 100%;
+    }
+    .question {
+        width: 90%;
+    }
+    .contacts {
+        width: 85%;
+        font-size: 18px;
+        line-height: 138.6%;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .contacts svg{
+        width: 41px;
+        height: 41px;
+    }
+    .map-small {
+        display: block;
+    }
+    .map {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+}
