@@ -42,9 +42,9 @@
 <section class="portfolio-background">
     <div class="portfolio">
         <ul class="portfolio-cities">
-            <li><a class="portfolio-selected title" href="#">Rostov-on-Don, Admiral</a> <hr> </li>
-            <li><a class="portfolio-cities-name subtitle" href="#"> Sochi Thieves</a></li>
-            <li><a class="portfolio-cities-name subtitle" href="#">Rostov-on-Don Patriotic</a></li>
+            <li><a data-select-name="1" class="portfolio-selected title" href="#">Rostov-on-Don, Admiral<hr></a></li>
+            <li><a data-select-name="2" class="portfolio-cities-name subtitle" href="#"> Sochi Thieves<hr></a></li>
+            <li><a data-select-name="3" class="portfolio-cities-name subtitle" href="#">Rostov-on-Don Patriotic<hr></a></li>
         </ul>
         <div class="portfolio-project">
             <div class="portfolio-text">
@@ -55,12 +55,12 @@
                         market we have made happy more than 1000 families</p>
                 </div>
                 <div class="carousel-small" >
-                    <svg class="portfolio-left" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg data-back-small class="portfolio-left" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="17.9999" cy="17.9999" r="18.0001" transform="rotate(-180 17.9999 17.9999)" fill="#E3B873"/>
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5657 23.478L14.0869 17.9997L19.5657 12.5215L20.3478 13.3035L15.6511 17.9997L20.3478 22.696L19.5657 23.478Z" fill="white" stroke="white" stroke-width="0.75"/>
                     </svg>
-                    <img src="assets/portfolio-small.jpg" width="100%">
-                    <svg class="portfolio-right" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <img data-pic-small src="assets/carousel/portfolio_1.jpg" width="100%">
+                    <svg data-forward-small class="portfolio-right" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="18.0001" cy="18.0001" r="18.0001" fill="#E3B873"/>
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M16.4343 12.522L21.9131 18.0003L16.4343 23.4785L15.6522 22.6965L20.3489 18.0003L15.6522 13.304L16.4343 12.522Z" fill="white" stroke="white" stroke-width="0.75"/>
                     </svg>
@@ -69,16 +69,16 @@
                 <div class="portfolio-spec">
                     <div>
                         <h1 class="title">City:</h1>
-                        <p class="regular white">Rostov-on-Don <br>
-                            LCD admiral</p>
+                        <p data-city class="regular white">Rostov-on-Don</p>
+                        <p data-city-place class="regular white">LCD admiral</p>
                     </div>
                     <div>
                         <h1 class="title">Apartment area:</h1>
-                        <p class="regular white">81 m<sup>2</sup></p>
+                        <p data-area class="regular white">81 m<sup>2</sup></p>
                     </div>
                     <div>
                         <h1 class="title">Repair time:</h1>
-                        <p class="regular white">3.5 months</p>
+                        <p data-time class="regular white">3.5 months</p>
                     </div>
                     <div>
                         <h1 class="title">Repair Cost:</h1>
@@ -86,30 +86,30 @@
                     </div>
                 </div>
                 <div class="portfolio-nav-btn">
-                    <button type="button"><svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <button data-back type="button"><svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M6.63807 13.276L2.29917e-05 6.638L6.63807 -3.82298e-05L7.58563 0.94753L1.89516 6.638L7.58563 12.3285L6.63807 13.276Z" fill="white"/>
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M0.947579 5.9681L41.4556 5.9681L41.4556 7.30817L0.947578 7.30816L0.947579 5.9681Z" fill="white"/>
                     </svg>
                     </button>
-                    <button type="button"><svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="0.952759" y="0.456207" width="9.56667" height="9.56667" rx="4.78333" fill="white"/>
+                    <button data-select-position="1" type="button"><svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.0583191" y="0.45636" width="9.56667" height="9.56667" rx="4.78333" fill="white"/>
                     </svg></button>
-                    <button type="button"><svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="0.0583191" y="0.45636" width="9.56667" height="9.56667" rx="4.78333" fill="white" fill-opacity="0.3"/>
+                    <button data-select-position="2" type="button" class="not-selected"><svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect  x="0.0583191" y="0.45636" width="9.56667" height="9.56667" rx="4.78333" fill="white"/>
                     </svg>
                     </button>
-                    <button type="button"><svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="0.0583191" y="0.45636" width="9.56667" height="9.56667" rx="4.78333" fill="white" fill-opacity="0.3"/>
+                    <button data-select-position="3" type="button" class="not-selected"><svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.0583191" y="0.45636" width="9.56667" height="9.56667" rx="4.78333" fill="white"/>
                     </svg>
                     </button>
-                    <button type="button"><svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <button data-forward type="button"><svg width="42" height="14" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M35.0451 -0.000183105L41.6831 6.63786L35.0451 13.2759L34.0975 12.3283L39.788 6.63786L34.0975 0.947384L35.0451 -0.000183105Z" fill="white"/>
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M40.7356 7.30776L0.227569 7.30776L0.22757 5.9677L40.7356 5.9677L40.7356 7.30776Z" fill="white"/>
                     </svg>
                     </button>
                 </div>
             </div>
-            <img class="portfolio-big" src="assets/portfolio.jpg" height="100%" width="58%">
+            <img data-pic-big class="portfolio-big" src="assets/carousel/portfolio_1.jpg" height="100%" width="58%">
         </div>
 
     </div>
@@ -538,5 +538,6 @@
         <button class="button button-menu italic white" type="button">REQUEST A CALL</button>
     </div>
 </footer>
+<script src="script/slider.js"></script>
 </body>
 </html>

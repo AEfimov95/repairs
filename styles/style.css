@@ -6,6 +6,12 @@
     list-style-type: none;
     box-sizing: border-box;
 }
+button {
+    cursor: pointer
+}
+.not-selected{
+    opacity: 0.3;
+}
 a {
     text-decoration: none;
 }
@@ -210,16 +216,19 @@ body {
     line-height: 19px;
 }
 .portfolio-selected hr{
-    background: #E3B873;
     height: 1px;
-    border: none;
-    margin-top: 5px;
+    margin-top: 5px;;
+    background-color: #E3B873;
+    border-bottom-width: 0;
 }
 .portfolio-cities-name {
     font-size: 14px;
     line-height: 19px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.3);
+}
+.portfolio-cities-name hr{
+    display: none;
 }
 
 .portfolio-project {
