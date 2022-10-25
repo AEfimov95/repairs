@@ -134,4 +134,4 @@ selectOnPosition.forEach(item =>{
         checkPosition();
     })
 })
-selectedPortfolio()
+selectedPortfolio();
